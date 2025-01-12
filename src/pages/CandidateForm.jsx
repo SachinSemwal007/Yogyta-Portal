@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import { FaTrashAlt, FaPlus } from "react-icons/fa"; // Importing icons
 import { FaPhotoVideo, FaFilePdf } from 'react-icons/fa';
 import FormPreview from "../components/FormPreview";
-import Nav from "../components/Nav";
+import { useState } from "react";
 
 const CandidateForm = () => {
   const [personalDetails, setPersonalDetails] = useState({

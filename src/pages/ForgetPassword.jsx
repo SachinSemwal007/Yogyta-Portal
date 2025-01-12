@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
@@ -17,7 +16,7 @@ const ForgetPassword = () => {
           <div className="w-full md:w-1/2 p-6 sm:p-12">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 text-center">Reset Your Password</h1>
             <p className="text-sm text-gray-500 dark:text-gray-300 mb-6 text-center">
-              Enter your registered email address, and we'll send you a link to reset your password.
+              Enter your registered email address, and we&apos;ll send you a link to reset your password.
             </p>
             <form className="space-y-4">
               <div>
